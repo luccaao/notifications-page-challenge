@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main>
+    <section class="container">
+      <div class="grey-back">
+        <div >
+          <ul class="top-list">
+            <li id="notifi" style="display: flex;"><p class="notification">Notifications</p><span>3</span></li>
+            <li><p class="mark-all">Mark all as read</p></li>
+          </ul>
+        </div>
+        <ul >
+          <li class="li-not">
+            
+              <img class="avatar" src="./assets/images/avatar-mark-webber.webp" alt="">
+              <a href="">Mark Webber</a> reacted to your recent post My first tournament today! 
+              <article></article>
+            
+            <p class="time-ago">1m ago</p>
+          </li>
+        
+          <li class="li-not">
+            <img class="avatar" src="./assets/images/avatar-angela-gray.webp" alt="">
+            <a href="">Angela Gray</a> followed you <br>
+            <p class="time-ago">5m ago</p>
+            <article></article>
+          </li>
+          <li class="li-not">
+            <img class="avatar" src="./assets/images/avatar-jacob-thompson.webp" alt="">
+            <a href="">Jacob Thompson</a> has joined your group <a href="" class="chess">Chess Club</p></a> <br>
+            <p class="time-ago">1 day ago</p>
+            <article></article>
+          </li>
+
+          <li class="li-not">
+              <img class="avatar" src="/assets/images/avatar-rizky-hasanuddin.webp" alt="">
+              <a href="">Rizky Hasanuddin</a> sent you a private message <br>
+              <p class="time-ago">5 days ago</p>
+           
+            
+            <p class="message">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+              I'm already having lots of fun and improving my game.</p>
+          </li>
+          
+          <li class="li-not especial">
+            <div>
+              <img class="avatar" src="./assets/images/avatar-kimberly-smith.webp" alt="">
+              <a href="">Kimberly Smith</a> commented on your picture <br>
+              <p class="time-ago">1 week ago</p>
+            </div>
+            <div><img width="50px" src="./assets/images/image-chess.webp" alt=""></div>
+          </li>
+          <li class="li-not">
+            <img class="avatar" src="./assets/images/avatar-nathan-peterson.webp" alt="">
+            <a href="">Nathan Peterson</a> reacted to your recent post 5 end-game strategies to increase your win rate <br> 
+            <p class="time-ago">2 weeks ago</p>
+          </li>
+          <li class="li-not aa">
+            <img class="avatar" src="./assets/images/avatar-anna-kim.webp" alt="">
+            <a  href="" >Anna Kim</a> left the group <a href="" class="chess">Chess Club</a> <br>
+            <p class="time-ago">2 weeks ago</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
